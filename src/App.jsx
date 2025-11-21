@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './Components/Navbar'
+import PartclesBackground from './Components/PartclesBackground'
 import About from './Sections/About'
 import Contact from './Sections/Contact'
 import Experience from './Sections/Experience'
@@ -14,7 +15,9 @@ function App() {
 
   return (
     <>
-    <Navbar />
+    <div className='relative gradient text-white'>
+      <PartclesBackground />
+      <Navbar />
       <Home />
       <About />
       <Skills />
@@ -23,6 +26,7 @@ function App() {
       <Testimonial />
       <Contact />
       <Footer />
+    </div>
     </>
   )
 }

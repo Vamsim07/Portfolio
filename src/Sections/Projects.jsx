@@ -1,7 +1,7 @@
 function Projects(){
      return(
         <>
-       <div>
+       <div className="w-full h-screen">
          <h1>Projects</h1>
        </div>
         </>
